@@ -10,6 +10,7 @@ main {
 body {
     height: 100%;
     max-height: 1300px;
+
 }
 
 .bg-purple{
@@ -29,10 +30,18 @@ body {
     flex-direction: column;
 }
 
+
 .header .navbar-brand {
     color: #ffffff;
 }
 
+.navbar-nav li a {
+    color: #ffffff;
+    font-size: 20px;
+}
+.navbar-nav li a:hover {
+    color: rgba(255,255,255,0.5);
+}
 .header .navbar-toggler-icon {
     color: #ffffff;
     position: relative;
@@ -111,7 +120,7 @@ body {
     .about_me_img_top_left {
         border:  3px solid rgba(0,0,0,0.5);
         border-radius: 3px;
-        padding: 40px;
+        padding: 30px;
     }
     .about_me_img_top_left img {
         border-radius: 3px;
