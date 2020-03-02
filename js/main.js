@@ -33,7 +33,6 @@ $(document).ready(function () {
       var imagen=$(this).attr('src');
   
       var titleImagen=$(this).attr('title');
-      console.log(titleImagen)
       $('.recibir-imagen').attr('src',imagen);
       $('.modal-title').text(titleImagen);
       $('#mimodal').modal();
