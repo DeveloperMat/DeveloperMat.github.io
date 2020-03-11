@@ -17,7 +17,7 @@
 <body>
     <header class="header">
         <nav class="navbar navbar-expand-lg bg-successs">
-        <a class="navbar-brand" href="#">PORTFOLIO</a>
+        <a class="navbar-brand" href="#">PORTFOLIO WEB</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
@@ -28,10 +28,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item d-flex align-items-center">
-                    <a class="nav-link" href="#">Portafolio</a>
+                    <a class="nav-link" href="portafolio.html">Portafolio</a>
                 </li>
                 </ul>
 
@@ -43,8 +43,8 @@
                     <div class="content_header_wrap text-white">
                         <div class="content_header_inside m-auto">
                             <h2>Portfolio Web</h2>
-                            <button class="btn btn-outline-primary">Portfolio</button>
-                            <button class="btn btn-outline-success">About Me</button>
+                            <a class="btn btn-outline-primary" href="#portafolio">Portfolio</a>
+                            <a class="btn btn-outline-success" href="#about_me">About Me</a>
                         
                         </div>
                     </div>
@@ -56,27 +56,28 @@
 
 
     <main>
-        <div class="about_me d-flex flex-column mb-2">
-            <h2 class="text-center my-5">About Me</h2>
+        <div class="about_me d-flex flex-column mb-2" id="about_me">
+            <h2 class="text-center my-5">Sobre Mi</h2>
             <div class="about_me_inside">
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="about_me_top_left d-flex justify-content-center align-items-center mb-3">
                             <div class="about_me_img_top_left">
-                                <img src="/img/profile.png" alt="">
+                                <img src="/img/profile.jpg" alt="" class="img-fluid">
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-7 d-flex align-items-center">
                         <div class="about_me_top_right">
-                            <h6>Aliquam Euismod At Turpis Eu Egestas</h6>
-                            <p>Nullam pulvinar nunc eget tortor elementum, sed vehicula massa vestibulum. Aenean gravida
-                                arcu viverra nisl euismod laoreet. Fusce accumsan vel arcu at tincidunt. Nulla non nulla
-                                ultrices, pharetra orci in, varius nun</p>
+                            <h6>Mi nombre es: Jezer Diaz</h6>
+                            <p>Soy desarrollador web, enfocado actualmente en el front, las tecnologias que manejo actualmente son en html-css-javacript y PHP.
+                                Además cuento con conocimientos en frameworks como bootstrap, vue y laravel, soy amante de la tecnologia,
+                                me considero un nerd informatico y siempre con ganas de aprender mas y enfrentar nuevos retos
+                            </p>
                                 <ul class="address">
-                                    <li class="mt-2"><b>PHONE</b>: +XX-XXXXXX</li>
-                                    <li class="mt-2"><b>EMAIL</b>: xxxxxxxxx@gmail.com</li>
-                                    <li class="mt-2"><b>WEBSITE</b>: www.xxxxxxx.com</li>
+                                    <li class="mt-2"></li><b>PHONE</b>: +58-4168552180</li>
+                                    <li class="mt-2"><b>EMAIL</b>: jezerdiazg@gmail.com</li>
+                                    <li class="mt-2"><b>WEBSITE</b>: <a href="https://developermat.github.io/">https://developermat.github.io/</a> </li>
                                     </ul>
                                     <a href="#" class="btn btn-success">Contratame</a>
                         </div>
@@ -93,10 +94,8 @@
                 <div class="col-sm-6 d-flex align-items-center text-center">
                     <div class="skill_left">
                         <div class="skill_left_inside">
-                            <h6>Lorem, ipsum dolor.</h6>
-                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quam
-                                sequi ducimus
-                                vitae necessitatibus cumque amet fugiat non similique. Repe.</p>
+                            <h6>Algunas de mis habilidades</h6>
+                            <p class="text-justify">Aqui represento algunas de mis habilidades en el area del desarrollo web</p>
                             <a href="#" class="btn btn-success mb-3">Boton</a>
                         </div>
                     </div>
@@ -144,15 +143,15 @@
         </div>
     </div>
 
-    <div class="portfolio p-5 mt-5">
+    <div class="portfolio p-5 mt-5" id="portafolio">
         <h2 class="text-center">Portafolio</h2>
 
         <div class="categorias" id="categorias">
             <a href="#categorias" class="categoria_item" category="all">Todo</a>
             <a href="#categorias" class="categoria_item" category="industrial">Industrial</a>
             <a href="#categorias" class="categoria_item" category="education">Educacion</a>
-            <a href="#categorias" class="categoria_item" category="aplicaciones">Aplicaciones </a>
-            <a href="#categorias" class="categoria_item" category="diseños">Diseños</a>
+            <a href="#categorias" class="categoria_item" category="wordpress">Wordpress</a>
+            <a href="#categorias" class="categoria_item" category="juegos">Juegos</a>
         </div>
 
         <div class="images_portfolio">
@@ -162,11 +161,11 @@
             <div class="images_item mt-4" category="education" data-toggle="modal" data-target="#exampleModal">
                 <img src="/img/school-compressed.jpg" alt="" id="img2" title="Education">
             </div>
-            <div class="images_item mt-4" category="aplicaciones" data-toggle="modal" data-target="#exampleModal">
-                <img src="/img/pag3.jpg" alt="" id="img3" title="img1">
+            <div class="images_item mt-4" category="wordpress" data-toggle="modal" data-target="#exampleModal">
+                <img src="/img/page3.jpg" alt="" id="img3" title="">
             </div>
-            <div class="images_item mt-4" category="diseños" data-toggle="modal" data-target="#exampleModal">
-                <img src="/img/page4.png" alt="" id="img4" title="img1">
+            <div class="images_item mt-4" category="juegos" data-toggle="modal" data-target="#exampleModal">
+                <img src="/img/astrogalletas.png" alt="" id="img4" title="Juego Nave Espacial">
             </div>
         </div>
 
@@ -180,8 +179,8 @@
             <div class="contact_inside">
                 <div class="row">
                     <div class="col-md-6 text-center d-flex justify-content-center align-items-center">
-                        <h3>Want to get in touch?
-                            Find me on phone, <a href="#" class="text-success">email </a>,<a href="#" class="text-success"> twitter</a> or <a href="#" class="text-success">Linkenid</a>.</h3>
+                        <h3>Quieres tener mas información?
+                            enviame tus dudas via, <a href="#about_me" class="text-success">email </a>,<a href="#about_me" class="text-success">telefono</a> o <a href="#" class="text-success">Caja de mensajes</a>.</h3>
                     </div>
                     <div class="col-md-6">
                         <div class="card">
@@ -223,6 +222,7 @@
         <img src="" class="modal-content recibir-imagen " alt="">
       </div>
       <div class="modal-footer">
+           
       </div>
     </div>
   </div>
